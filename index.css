@@ -1,0 +1,26 @@
+/* * {
+  outline: 1px solid red;
+} */
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+p {
+  color: hsl(234, 29%, 20%);
+}
+
+.invisible-el {
+  display: none !important;
+}
+
+.error {
+  border-color: hsl(4, 100%, 67%) !important;
+  background-color: hsl(4, 100%, 67%, 0.15) !important;
+  color: hsl(4, 100%, 67%) !important;
+}
+
+.activeBtn:hover {
+  background: linear-gradient(to right, #ff5478, #ff693e);
+}
