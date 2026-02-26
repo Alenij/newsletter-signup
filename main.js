@@ -25,3 +25,8 @@ dismissBtn.addEventListener("click", function () {
   signUpPage.classList.remove("invisible-el");
   successMsg.classList.add("invisible-el");
 });
+
+emailInput.addEventListener("input", function () {
+  errorMsg.classList.add("hidden");
+  emailInput.classList.remove("error");
+});
